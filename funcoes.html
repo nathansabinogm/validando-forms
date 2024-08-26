@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula - 01</title>
+</head>
+<body>
+    <h1>Aula 01 - Javascript</h1>
+    <button onclick="fn01()">fn-01</button>
+    <button onclick="fn02()">fn-02</button>
+    <button onclick="fn03()">fn-03</button>
+    <button >fn-04</button>
+    <button >fn-05</button>
+    <button >fn-06</button>
+    <button >fn-07</button>
+
+    <!---- SCRIPT AREA ---->
+    <script>
+
+        function fn01() {
+            var h1 = document.querySelector('h1')
+            h1.textContent = "Aula 01 :("
+        }
+        function fn02() {
+            var h1 = document.querySelector('h1')
+            // h1.textContent = "Aula 02 :)"
+            h1.textContent = "Aula 02 :) resultado " + (99 * 37)
+        }
+        function fn03() {
+            alert('You name ? ' )
+            prompt('Is ?: ')
+        }
+        function fn04() {
+            
+        }
+        function fn05() {
+            
+        }
+        function fn06() {
+            
+        }
+        function fn07() {
+            
+        }
+
+    </script>
+
+    <!---- STYLE AREA ---->
+    <style>
+        button{
+            width: 60px;
+            height: 60px;
+            padding: 4px;
+            border: none;
+            color: white;
+            border-radius: 50%;
+            background-color: blue;
+        }
+        button:hover{
+            cursor: pointer;
+            background-color: blueviolet;
+        }
+    </style>
+</body>
+</html>
