@@ -2,6 +2,7 @@
     "categoria": [
         { "id": 1, "name": "informática" },
         { "id": 2, "name": "console" },
-        { "id": 3, "name": "jogos" }
+        { "id": 3, "name": "jogos" },
+        { "id": 4, "name": "casa" },
     ]
 }
